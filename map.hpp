@@ -7,6 +7,9 @@
 #include <set>
 #include <stack>
 #include <vector>
+#include <cmath>
+#include <limits>
+#include <stack>
 
 using pos = std::pair<int, int>;
 using pip = std::pair<int, pos>;

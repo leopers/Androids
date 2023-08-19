@@ -1,8 +1,4 @@
 #include "map.hpp"
-#include <cmath>
-#include <limits>
-#include <stack>
-
 
 Map::Map(std::vector<std::vector<bool>> & map)
         : grid{map}, gridHeight(map.size()), gridWidth(map[0].size())
