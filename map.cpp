@@ -82,8 +82,8 @@ std::stack<pos> Map::Astar(pos src, pos end){
     pq.push({f[src.fi][src.se], src});
 
 
-    std::vector<int> dx = {1, 0, -1, 0};
-    std::vector<int> dy = {0, 1, 0, -1};
+    std::vector<double> dx = {1, 0, -1, 0};
+    std::vector<double> dy = {0, 1, 0, -1};
 
     while(!pq.empty()){
         auto u = pq.top().se;
